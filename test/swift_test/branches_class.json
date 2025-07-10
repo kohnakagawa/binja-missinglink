@@ -1,0 +1,2638 @@
+{
+  "modules": [
+    {
+      "name": "TestProgramClass",
+      "addr": "0x100000000"
+    },
+    {
+      "name": "dyld",
+      "addr": "0x20000c000"
+    },
+    {
+      "name": "libsystem_platform.dylib",
+      "addr": "0x7ff802b84000"
+    },
+    {
+      "name": "libsystem_pthread.dylib",
+      "addr": "0x7ff802b49000"
+    },
+    {
+      "name": "libsystem_kernel.dylib",
+      "addr": "0x7ff802b0c000"
+    },
+    {
+      "name": "libSystem.B.dylib",
+      "addr": "0x7ff811682000"
+    },
+    {
+      "name": "libcache.dylib",
+      "addr": "0x7ff81167c000"
+    },
+    {
+      "name": "libcommonCrypto.dylib",
+      "addr": "0x7ff811635000"
+    },
+    {
+      "name": "libcompiler_rt.dylib",
+      "addr": "0x7ff81165f000"
+    },
+    {
+      "name": "libcopyfile.dylib",
+      "addr": "0x7ff811653000"
+    },
+    {
+      "name": "libcorecrypto.dylib",
+      "addr": "0x7ff8028a4000"
+    },
+    {
+      "name": "libdispatch.dylib",
+      "addr": "0x7ff8029a2000"
+    },
+    {
+      "name": "libdyld.dylib",
+      "addr": "0x7ff802b55000"
+    },
+    {
+      "name": "libkeymgr.dylib",
+      "addr": "0x7ff811672000"
+    },
+    {
+      "name": "libmacho.dylib",
+      "addr": "0x7ff81161a000"
+    },
+    {
+      "name": "libquarantine.dylib",
+      "addr": "0x7ff81094a000"
+    },
+    {
+      "name": "libremovefile.dylib",
+      "addr": "0x7ff81166f000"
+    },
+    {
+      "name": "libsystem_asl.dylib",
+      "addr": "0x7ff8086ef000"
+    },
+    {
+      "name": "libsystem_blocks.dylib",
+      "addr": "0x7ff80283e000"
+    },
+    {
+      "name": "libsystem_c.dylib",
+      "addr": "0x7ff8029ed000"
+    },
+    {
+      "name": "libsystem_collections.dylib",
+      "addr": "0x7ff811667000"
+    },
+    {
+      "name": "libsystem_configuration.dylib",
+      "addr": "0x7ff80f620000"
+    },
+    {
+      "name": "libsystem_containermanager.dylib",
+      "addr": "0x7ff80e373000"
+    },
+    {
+      "name": "libsystem_coreservices.dylib",
+      "addr": "0x7ff8111d7000"
+    },
+    {
+      "name": "libsystem_darwin.dylib",
+      "addr": "0x7ff806120000"
+    },
+    {
+      "name": "libsystem_darwindirectory.dylib",
+      "addr": "0x7ffd0d97c000"
+    },
+    {
+      "name": "libsystem_dnssd.dylib",
+      "addr": "0x7ff811673000"
+    },
+    {
+      "name": "libsystem_eligibility.dylib",
+      "addr": "0x7ffd0d981000"
+    },
+    {
+      "name": "libsystem_featureflags.dylib",
+      "addr": "0x7ff8029ea000"
+    },
+    {
+      "name": "libsystem_info.dylib",
+      "addr": "0x7ff802b8e000"
+    },
+    {
+      "name": "libsystem_m.dylib",
+      "addr": "0x7ff8115a2000"
+    },
+    {
+      "name": "libsystem_malloc.dylib",
+      "addr": "0x7ff802957000"
+    },
+    {
+      "name": "libsystem_networkextension.dylib",
+      "addr": "0x7ff80865f000"
+    },
+    {
+      "name": "libsystem_notify.dylib",
+      "addr": "0x7ff80655c000"
+    },
+    {
+      "name": "libsystem_sandbox.dylib",
+      "addr": "0x7ff80f624000"
+    },
+    {
+      "name": "libsystem_sanitizers.dylib",
+      "addr": "0x7ffd0d989000"
+    },
+    {
+      "name": "libsystem_secinit.dylib",
+      "addr": "0x7ff81166c000"
+    },
+    {
+      "name": "libsystem_symptoms.dylib",
+      "addr": "0x7ff80a495000"
+    },
+    {
+      "name": "libsystem_trace.dylib",
+      "addr": "0x7ff802889000"
+    },
+    {
+      "name": "libunwind.dylib",
+      "addr": "0x7ff811642000"
+    },
+    {
+      "name": "libxpc.dylib",
+      "addr": "0x7ff802842000"
+    },
+    {
+      "name": "libobjc.A.dylib",
+      "addr": "0x7ff80275e000"
+    },
+    {
+      "name": "CoreFoundation",
+      "addr": "0x7ff802bbc000"
+    },
+    {
+      "name": "libswiftCore.dylib",
+      "addr": "0x7ff81513c000"
+    },
+    {
+      "name": "libc++abi.dylib",
+      "addr": "0x7ff802af5000"
+    },
+    {
+      "name": "libRosetta.dylib",
+      "addr": "0x7ffd0c3db000"
+    },
+    {
+      "name": "libc++.1.dylib",
+      "addr": "0x7ff802a76000"
+    },
+    {
+      "name": "Foundation",
+      "addr": "0x7ff803c87000"
+    },
+    {
+      "name": "libswiftObjectiveC.dylib",
+      "addr": "0x7ff81df5b000"
+    },
+    {
+      "name": "CoreServicesInternal",
+      "addr": "0x7ff806414000"
+    },
+    {
+      "name": "liboah.dylib",
+      "addr": "0x7ff81164b000"
+    },
+    {
+      "name": "libfakelink.dylib",
+      "addr": "0x7ff811684000"
+    },
+    {
+      "name": "libicucore.A.dylib",
+      "addr": "0x7ff805e77000"
+    },
+    {
+      "name": "SoftLinking",
+      "addr": "0x7ff811687000"
+    },
+    {
+      "name": "CoreServices",
+      "addr": "0x7ff819628000"
+    },
+    {
+      "name": "Security",
+      "addr": "0x7ff805a93000"
+    },
+    {
+      "name": "IOKit",
+      "addr": "0x7ff806496000"
+    },
+    {
+      "name": "DiskImages",
+      "addr": "0x7ff81d56b000"
+    },
+    {
+      "name": "NetFS",
+      "addr": "0x7ff908a57000"
+    },
+    {
+      "name": "CFNetwork",
+      "addr": "0x7ff8082b8000"
+    },
+    {
+      "name": "FSEvents",
+      "addr": "0x7ff80c903000"
+    },
+    {
+      "name": "CarbonCore",
+      "addr": "0x7ff80612b000"
+    },
+    {
+      "name": "Metadata",
+      "addr": "0x7ff80b63c000"
+    },
+    {
+      "name": "OSServices",
+      "addr": "0x7ff8111de000"
+    },
+    {
+      "name": "SearchKit",
+      "addr": "0x7ff8117b1000"
+    },
+    {
+      "name": "AE",
+      "addr": "0x7ff80a415000"
+    },
+    {
+      "name": "LaunchServices",
+      "addr": "0x7ff80306f000"
+    },
+    {
+      "name": "DictionaryServices",
+      "addr": "0x7ff812de9000"
+    },
+    {
+      "name": "SharedFileList",
+      "addr": "0x7ff80c911000"
+    },
+    {
+      "name": "SystemConfiguration",
+      "addr": "0x7ff803913000"
+    },
+    {
+      "name": "libapple_nghttp2.dylib",
+      "addr": "0x7ff811833000"
+    },
+    {
+      "name": "libcompression.dylib",
+      "addr": "0x7ff81187f000"
+    },
+    {
+      "name": "libsqlite3.dylib",
+      "addr": "0x7ff80a07a000"
+    },
+    {
+      "name": "libz.1.dylib",
+      "addr": "0x7ff81158e000"
+    },
+    {
+      "name": "CoreAnalytics",
+      "addr": "0x7ff80b5af000"
+    },
+    {
+      "name": "CoreGraphics",
+      "addr": "0x7ff808bf4000"
+    },
+    {
+      "name": "GSS",
+      "addr": "0x7ff815d53000"
+    },
+    {
+      "name": "RunningBoardServices",
+      "addr": "0x7ff80a3b0000"
+    },
+    {
+      "name": "libenergytrace.dylib",
+      "addr": "0x7ff808679000"
+    },
+    {
+      "name": "Network",
+      "addr": "0x7ff80a49d000"
+    },
+    {
+      "name": "libDiagnosticMessagesClient.dylib",
+      "addr": "0x7ff80b5dd000"
+    },
+    {
+      "name": "libbsm.0.dylib",
+      "addr": "0x7ff81096f000"
+    },
+    {
+      "name": "libkxld.dylib",
+      "addr": "0x7ff81161e000"
+    },
+    {
+      "name": "AppleKeyStore",
+      "addr": "0x7ffb11503000"
+    },
+    {
+      "name": "libCoreEntitlements.dylib",
+      "addr": "0x7ffd0c2a8000"
+    },
+    {
+      "name": "MessageSecurity",
+      "addr": "0x7ffc0b79a000"
+    },
+    {
+      "name": "ProtocolBuffer",
+      "addr": "0x7ff80a060000"
+    },
+    {
+      "name": "libMobileGestalt.dylib",
+      "addr": "0x7ff80867a000"
+    },
+    {
+      "name": "AppleFSCompression",
+      "addr": "0x7ff8111bd000"
+    },
+    {
+      "name": "libcoretls.dylib",
+      "addr": "0x7ff810957000"
+    },
+    {
+      "name": "libcoretls_cfhelpers.dylib",
+      "addr": "0x7ff812e57000"
+    },
+    {
+      "name": "libpam.2.dylib",
+      "addr": "0x7ff811879000"
+    },
+    {
+      "name": "libxar.1.dylib",
+      "addr": "0x7ff812ed1000"
+    },
+    {
+      "name": "CoreAutoLayout",
+      "addr": "0x7ff80c93c000"
+    },
+    {
+      "name": "DiskArbitration",
+      "addr": "0x7ff80b6c4000"
+    },
+    {
+      "name": "libarchive.2.dylib",
+      "addr": "0x7ff8116d6000"
+    },
+    {
+      "name": "libxml2.2.dylib",
+      "addr": "0x7ff80c986000"
+    },
+    {
+      "name": "liblangid.dylib",
+      "addr": "0x7ff80f631000"
+    },
+    {
+      "name": "Combine",
+      "addr": "0x7ff817497000"
+    },
+    {
+      "name": "CollectionsInternal",
+      "addr": "0x7ffb154be000"
+    },
+    {
+      "name": "ReflectionInternal",
+      "addr": "0x7ffc13bf2000"
+    },
+    {
+      "name": "RuntimeInternal",
+      "addr": "0x7ffc1479c000"
+    },
+    {
+      "name": "libswiftCoreFoundation.dylib",
+      "addr": "0x7ff90b8fc000"
+    },
+    {
+      "name": "libswiftDarwin.dylib",
+      "addr": "0x7ff908f1f000"
+    },
+    {
+      "name": "libswiftDispatch.dylib",
+      "addr": "0x7ff81b3ff000"
+    },
+    {
+      "name": "libswiftIOKit.dylib",
+      "addr": "0x7ff90b94a000"
+    },
+    {
+      "name": "libswiftSystem.dylib",
+      "addr": "0x7ffd0d5dd000"
+    },
+    {
+      "name": "libswiftXPC.dylib",
+      "addr": "0x7ff90b90c000"
+    },
+    {
+      "name": "libswift_Builtin_float.dylib",
+      "addr": "0x7ffd0d649000"
+    },
+    {
+      "name": "libswift_Concurrency.dylib",
+      "addr": "0x7ffd0d64c000"
+    },
+    {
+      "name": "libswift_StringProcessing.dylib",
+      "addr": "0x7ffd0d795000"
+    },
+    {
+      "name": "libswift_errno.dylib",
+      "addr": "0x7ffd0d81a000"
+    },
+    {
+      "name": "libswift_math.dylib",
+      "addr": "0x7ffd0d81c000"
+    },
+    {
+      "name": "libswift_signal.dylib",
+      "addr": "0x7ffd0d81f000"
+    },
+    {
+      "name": "libswift_stdio.dylib",
+      "addr": "0x7ffd0d820000"
+    },
+    {
+      "name": "libswift_time.dylib",
+      "addr": "0x7ffd0d821000"
+    },
+    {
+      "name": "libswiftos.dylib",
+      "addr": "0x7ff81df5f000"
+    },
+    {
+      "name": "libswiftsys_time.dylib",
+      "addr": "0x7ffd0d822000"
+    },
+    {
+      "name": "libswiftunistd.dylib",
+      "addr": "0x7ffd0d823000"
+    },
+    {
+      "name": "AppleSystemInfo",
+      "addr": "0x7ff80f62c000"
+    },
+    {
+      "name": "LoggingSupport",
+      "addr": "0x7ff90b7ee000"
+    },
+    {
+      "name": "PowerLog",
+      "addr": "0x7ff81a588000"
+    },
+    {
+      "name": "SwiftData",
+      "addr": "0x7ffb0bee6000"
+    },
+    {
+      "name": "UniformTypeIdentifiers",
+      "addr": "0x7ff807cf6000"
+    },
+    {
+      "name": "UserManagement",
+      "addr": "0x7ff80cafb000"
+    },
+    {
+      "name": "libboringssl.dylib",
+      "addr": "0x7ff8081de000"
+    },
+    {
+      "name": "libdns_services.dylib",
+      "addr": "0x7ff80a485000"
+    },
+    {
+      "name": "libquic.dylib",
+      "addr": "0x7ff90a9f7000"
+    },
+    {
+      "name": "libusrtcp.dylib",
+      "addr": "0x7ff8150c4000"
+    },
+    {
+      "name": "InternalSwiftProtobuf",
+      "addr": "0x7ffa0fcb4000"
+    },
+    {
+      "name": "libswiftDistributed.dylib",
+      "addr": "0x7ffd0d521000"
+    },
+    {
+      "name": "libswiftObservation.dylib",
+      "addr": "0x7ffd0d54a000"
+    },
+    {
+      "name": "libswiftSynchronization.dylib",
+      "addr": "0x7ffd0d5d3000"
+    },
+    {
+      "name": "libnetwork.dylib",
+      "addr": "0x7ff8082b7000"
+    },
+    {
+      "name": "OSAnalytics",
+      "addr": "0x7ff91c94c000"
+    },
+    {
+      "name": "AppleSauce",
+      "addr": "0x7ff811811000"
+    },
+    {
+      "name": "CoreSymbolication",
+      "addr": "0x7ff81bb93000"
+    },
+    {
+      "name": "Symbolication",
+      "addr": "0x7ffa0b640000"
+    },
+    {
+      "name": "DebugSymbols",
+      "addr": "0x7ff81bb73000"
+    },
+    {
+      "name": "libAppleArchive.dylib",
+      "addr": "0x7ffd0c167000"
+    },
+    {
+      "name": "libbz2.1.0.dylib",
+      "addr": "0x7ff8111c8000"
+    },
+    {
+      "name": "liblzma.5.dylib",
+      "addr": "0x7ff812e37000"
+    },
+    {
+      "name": "IOMobileFramebuffer",
+      "addr": "0x7ff81065f000"
+    },
+    {
+      "name": "IOSurface",
+      "addr": "0x7ff80e3a2000"
+    },
+    {
+      "name": "MallocStackLogging",
+      "addr": "0x7ff90b87c000"
+    },
+    {
+      "name": "CrashReporterSupport",
+      "addr": "0x7ff8131e9000"
+    },
+    {
+      "name": "Lexicon",
+      "addr": "0x7ff8036c8000"
+    },
+    {
+      "name": "SecurityFoundation",
+      "addr": "0x7ff810889000"
+    },
+    {
+      "name": "libgermantok.dylib",
+      "addr": "0x7ff8109da000"
+    },
+    {
+      "name": "LinguisticData",
+      "addr": "0x7ff80f741000"
+    },
+    {
+      "name": "BaseBoard",
+      "addr": "0x7ff80a2cd000"
+    },
+    {
+      "name": "BoardServices",
+      "addr": "0x7ff81b743000"
+    },
+    {
+      "name": "AssertionServices",
+      "addr": "0x7ff81087c000"
+    },
+    {
+      "name": "ImageIO",
+      "addr": "0x7ff80edb6000"
+    },
+    {
+      "name": "SkyLight",
+      "addr": "0x7ff808727000"
+    },
+    {
+      "name": "libFontParser.dylib",
+      "addr": "0x7ff80e7be000"
+    },
+    {
+      "name": "Accelerate",
+      "addr": "0x7ff8198d4000"
+    },
+    {
+      "name": "TCC",
+      "addr": "0x7ff808707000"
+    },
+    {
+      "name": "IOSurfaceAccelerator",
+      "addr": "0x7ff820f29000"
+    },
+    {
+      "name": "WatchdogClient",
+      "addr": "0x7ff813ac2000"
+    },
+    {
+      "name": "CoreDisplay",
+      "addr": "0x7ff804c2b000"
+    },
+    {
+      "name": "CoreMedia",
+      "addr": "0x7ff80e66a000"
+    },
+    {
+      "name": "IOAccelerator",
+      "addr": "0x7ff80e3ba000"
+    },
+    {
+      "name": "Metal",
+      "addr": "0x7ff80e3c3000"
+    },
+    {
+      "name": "CoreVideo",
+      "addr": "0x7ff80ca69000"
+    },
+    {
+      "name": "MetalPerformanceShaders",
+      "addr": "0x7ff811877000"
+    },
+    {
+      "name": "MultitouchSupport",
+      "addr": "0x7ff813ac4000"
+    },
+    {
+      "name": "QuartzCore",
+      "addr": "0x7ff80c24a000"
+    },
+    {
+      "name": "ProDisplayLibrary",
+      "addr": "0x7ffc13043000"
+    },
+    {
+      "name": "VideoToolbox",
+      "addr": "0x7ff813b08000"
+    },
+    {
+      "name": "libswiftMetal.dylib",
+      "addr": "0x7ff9187d8000"
+    },
+    {
+      "name": "libswiftOSLog.dylib",
+      "addr": "0x7ffa07afc000"
+    },
+    {
+      "name": "libswiftQuartzCore.dylib",
+      "addr": "0x7ff91dc25000"
+    },
+    {
+      "name": "libswiftUniformTypeIdentifiers.dylib",
+      "addr": "0x7ffa025ff000"
+    },
+    {
+      "name": "libswiftsimd.dylib",
+      "addr": "0x7ff90f362000"
+    },
+    {
+      "name": "MobileKeyBag",
+      "addr": "0x7ff810861000"
+    },
+    {
+      "name": "AggregateDictionary",
+      "addr": "0x7ff80f62b000"
+    },
+    {
+      "name": "APFS",
+      "addr": "0x7ff812e59000"
+    },
+    {
+      "name": "libutil.dylib",
+      "addr": "0x7ff812edf000"
+    },
+    {
+      "name": "SwiftASN1Internal",
+      "addr": "0x7ffc1cdea000"
+    },
+    {
+      "name": "vImage",
+      "addr": "0x7ff80b6cc000"
+    },
+    {
+      "name": "vecLib",
+      "addr": "0x7ff8195ff000"
+    },
+    {
+      "name": "libvMisc.dylib",
+      "addr": "0x7ff812f14000"
+    },
+    {
+      "name": "libBLAS.dylib",
+      "addr": "0x7ff8034f6000"
+    },
+    {
+      "name": "ColorSync",
+      "addr": "0x7ff8094e7000"
+    },
+    {
+      "name": "CoreText",
+      "addr": "0x7ff805118000"
+    },
+    {
+      "name": "FontServices",
+      "addr": "0x7ffb1b591000"
+    },
+    {
+      "name": "OTSVG",
+      "addr": "0x7ff81362c000"
+    },
+    {
+      "name": "libFontRegistry.dylib",
+      "addr": "0x7ff80c5f8000"
+    },
+    {
+      "name": "libhvf.dylib",
+      "addr": "0x7ffd0c91f000"
+    },
+    {
+      "name": "ParsingInternal",
+      "addr": "0x7ffc0f629000"
+    },
+    {
+      "name": "libswiftRegexBuilder.dylib",
+      "addr": "0x7ffd0d566000"
+    },
+    {
+      "name": "libswift_RegexParser.dylib",
+      "addr": "0x7ffd0d6e7000"
+    },
+    {
+      "name": "AppleJPEG",
+      "addr": "0x7ff81398e000"
+    },
+    {
+      "name": "libexpat.1.dylib",
+      "addr": "0x7ff81344c000"
+    },
+    {
+      "name": "libPng.dylib",
+      "addr": "0x7ff8140dd000"
+    },
+    {
+      "name": "libTIFF.dylib",
+      "addr": "0x7ff81410b000"
+    },
+    {
+      "name": "libGIF.dylib",
+      "addr": "0x7ff8141ff000"
+    },
+    {
+      "name": "libJP2.dylib",
+      "addr": "0x7ff8139db000"
+    },
+    {
+      "name": "libate.dylib",
+      "addr": "0x7ff8130b2000"
+    },
+    {
+      "name": "libJPEG.dylib",
+      "addr": "0x7ff81419f000"
+    },
+    {
+      "name": "libRadiance.dylib",
+      "addr": "0x7ff814196000"
+    },
+    {
+      "name": "libllvm-flatbuffers.dylib",
+      "addr": "0x7ffb2066c000"
+    },
+    {
+      "name": "FramePacing",
+      "addr": "0x7ffb1b65c000"
+    },
+    {
+      "name": "libCoreFSCache.dylib",
+      "addr": "0x7ffb04e02000"
+    },
+    {
+      "name": "libGPUCompilerUtils.dylib",
+      "addr": "0x7ffb1c274000"
+    },
+    {
+      "name": "libXTFontStaticRegistryData.dylib",
+      "addr": "0x7ffb1b592000"
+    },
+    {
+      "name": "CoreImage",
+      "addr": "0x7ff80f14d000"
+    },
+    {
+      "name": "PhotosensitivityProcessing",
+      "addr": "0x7ffc1231f000"
+    },
+    {
+      "name": "OpenGL",
+      "addr": "0x7ffb04e0e000"
+    },
+    {
+      "name": "OpenCL",
+      "addr": "0x7ffb05abf000"
+    },
+    {
+      "name": "GraphVisualizer",
+      "addr": "0x7ff81361d000"
+    },
+    {
+      "name": "libGLU.dylib",
+      "addr": "0x7ffb04e60000"
+    },
+    {
+      "name": "libGFXShared.dylib",
+      "addr": "0x7ffb04e21000"
+    },
+    {
+      "name": "libGL.dylib",
+      "addr": "0x7ffb0501d000"
+    },
+    {
+      "name": "libGLImage.dylib",
+      "addr": "0x7ffb04e2a000"
+    },
+    {
+      "name": "libCVMSPluginSupport.dylib",
+      "addr": "0x7ffb04e1e000"
+    },
+    {
+      "name": "libCoreVMClient.dylib",
+      "addr": "0x7ffb04e09000"
+    },
+    {
+      "name": "MPSCore",
+      "addr": "0x7ff80f565000"
+    },
+    {
+      "name": "MPSImage",
+      "addr": "0x7ff811118000"
+    },
+    {
+      "name": "MPSNeuralNetwork",
+      "addr": "0x7ff8109f3000"
+    },
+    {
+      "name": "MPSMatrix",
+      "addr": "0x7ff810f53000"
+    },
+    {
+      "name": "MPSRayIntersector",
+      "addr": "0x7ff810d09000"
+    },
+    {
+      "name": "MPSNDArray",
+      "addr": "0x7ff810f92000"
+    },
+    {
+      "name": "MPSFunctions",
+      "addr": "0x7ffb091f5000"
+    },
+    {
+      "name": "MPSBenchmarkLoop",
+      "addr": "0x7ffb091d7000"
+    },
+    {
+      "name": "MetalTools",
+      "addr": "0x7ff803367000"
+    },
+    {
+      "name": "IOAccelMemoryInfo",
+      "addr": "0x7ff9108af000"
+    },
+    {
+      "name": "kperf",
+      "addr": "0x7ff91e02b000"
+    },
+    {
+      "name": "GPURawCounter",
+      "addr": "0x7ff90b8de000"
+    },
+    {
+      "name": "Kerberos",
+      "addr": "0x7ff815d44000"
+    },
+    {
+      "name": "libresolv.9.dylib",
+      "addr": "0x7ff8159af000"
+    },
+    {
+      "name": "libiconv.2.dylib",
+      "addr": "0x7ff8116be000"
+    },
+    {
+      "name": "Heimdal",
+      "addr": "0x7ff813684000"
+    },
+    {
+      "name": "libHeimdalProxy.dylib",
+      "addr": "0x7ff81deb3000"
+    },
+    {
+      "name": "libheimdal-asn1.dylib",
+      "addr": "0x7ff813468000"
+    },
+    {
+      "name": "OpenDirectory",
+      "addr": "0x7ff80c8db000"
+    },
+    {
+      "name": "CommonAuth",
+      "addr": "0x7ff815d9c000"
+    },
+    {
+      "name": "CFOpenDirectory",
+      "addr": "0x7ff80c8e7000"
+    },
+    {
+      "name": "libcharset.1.dylib",
+      "addr": "0x7ff811619000"
+    },
+    {
+      "name": "AudioToolbox",
+      "addr": "0x7ff8156fd000"
+    },
+    {
+      "name": "CoreAudio",
+      "addr": "0x7ff805351000"
+    },
+    {
+      "name": "libAudioStatistics.dylib",
+      "addr": "0x7ff8158f4000"
+    },
+    {
+      "name": "caulk",
+      "addr": "0x7ff80e646000"
+    },
+    {
+      "name": "AudioToolboxCore",
+      "addr": "0x7ff804d56000"
+    },
+    {
+      "name": "CoreMIDI",
+      "addr": "0x7ff820352000"
+    },
+    {
+      "name": "AudioSession",
+      "addr": "0x7ff81589b000"
+    },
+    {
+      "name": "MediaExperience",
+      "addr": "0x7ff813554000"
+    },
+    {
+      "name": "FeatureFlags",
+      "addr": "0x7ffa16aa2000"
+    },
+    {
+      "name": "AppServerSupport",
+      "addr": "0x7ff813672000"
+    },
+    {
+      "name": "perfdata",
+      "addr": "0x7ff815d27000"
+    },
+    {
+      "name": "SystemPolicy",
+      "addr": "0x7ff90aae4000"
+    },
+    {
+      "name": "libSMC.dylib",
+      "addr": "0x7ff815bc6000"
+    },
+    {
+      "name": "libAudioToolboxUtility.dylib",
+      "addr": "0x7ff8140a8000"
+    },
+    {
+      "name": "libperfcheck.dylib",
+      "addr": "0x7ff815d35000"
+    },
+    {
+      "name": "AudioAnalytics",
+      "addr": "0x7ffb1237c000"
+    },
+    {
+      "name": "OSLog",
+      "addr": "0x7ffa0fa89000"
+    },
+    {
+      "name": "libmis.dylib",
+      "addr": "0x7ff90b8ac000"
+    },
+    {
+      "name": "libSessionUtility.dylib",
+      "addr": "0x7ff8156bc000"
+    },
+    {
+      "name": "CMCaptureCore",
+      "addr": "0x7ff814205000"
+    },
+    {
+      "name": "libspindump.dylib",
+      "addr": "0x7ff81367d000"
+    },
+    {
+      "name": "ExtensionFoundation",
+      "addr": "0x7ffb07748000"
+    },
+    {
+      "name": "CoreTime",
+      "addr": "0x7ff81bca5000"
+    },
+    {
+      "name": "PlugInKit",
+      "addr": "0x7ff81333c000"
+    },
+    {
+      "name": "libvDSP.dylib",
+      "addr": "0x7ff810439000"
+    },
+    {
+      "name": "libLAPACK.dylib",
+      "addr": "0x7ff811963000"
+    },
+    {
+      "name": "libLinearAlgebra.dylib",
+      "addr": "0x7ff8109dd000"
+    },
+    {
+      "name": "libSparseBLAS.dylib",
+      "addr": "0x7ff81184e000"
+    },
+    {
+      "name": "libQuadrature.dylib",
+      "addr": "0x7ff81195d000"
+    },
+    {
+      "name": "libBNNS.dylib",
+      "addr": "0x7ff80f747000"
+    },
+    {
+      "name": "libSparse.dylib",
+      "addr": "0x7ff8037cc000"
+    },
+    {
+      "name": "MIL",
+      "addr": "0x7ffc08c7d000"
+    },
+    {
+      "name": "GPUWrangler",
+      "addr": "0x7ff81418f000"
+    },
+    {
+      "name": "IOPresentment",
+      "addr": "0x7ff814173000"
+    },
+    {
+      "name": "DSExternalDisplay",
+      "addr": "0x7ff814199000"
+    },
+    {
+      "name": "HIDDisplay",
+      "addr": "0x7ffa0fe9a000"
+    },
+    {
+      "name": "HID",
+      "addr": "0x7ff90444f000"
+    },
+    {
+      "name": "VideoToolboxParavirtualizationSupport",
+      "addr": "0x7ffd03309000"
+    },
+    {
+      "name": "AppleVA",
+      "addr": "0x7ff8133fe000"
+    },
+    {
+      "name": "CoreData",
+      "addr": "0x7ff809b4f000"
+    },
+    {
+      "name": "MediaKit",
+      "addr": "0x7ff81a66a000"
+    },
+    {
+      "name": "DiscRecording",
+      "addr": "0x7ff81a5c4000"
+    },
+    {
+      "name": "NetAuth",
+      "addr": "0x7ff815d0a000"
+    },
+    {
+      "name": "loginsupport",
+      "addr": "0x7ff80cabd000"
+    },
+    {
+      "name": "AppleMobileFileIntegrity",
+      "addr": "0x7ffb11fad000"
+    },
+    {
+      "name": "libTLE.dylib",
+      "addr": "0x7ffd0c436000"
+    },
+    {
+      "name": "ConfigProfileHelper",
+      "addr": "0x7ffa1f3d5000"
+    },
+    {
+      "name": "libmecab.dylib",
+      "addr": "0x7ff81097f000"
+    },
+    {
+      "name": "libCRFSuite.dylib",
+      "addr": "0x7ff803999000"
+    },
+    {
+      "name": "CoreNLP",
+      "addr": "0x7ff80f633000"
+    },
+    {
+      "name": "libThaiTokenizer.dylib",
+      "addr": "0x7ff811809000"
+    },
+    {
+      "name": "libCheckFix.dylib",
+      "addr": "0x7ff81094d000"
+    },
+    {
+      "name": "MetadataUtilities",
+      "addr": "0x7ff80b5df000"
+    },
+    {
+      "name": "InstalledContentLibrary",
+      "addr": "0x7ffc04ddc000"
+    },
+    {
+      "name": "CoreServicesStore",
+      "addr": "0x7ff806455000"
+    },
+    {
+      "name": "libapp_launch_measurement.dylib",
+      "addr": "0x7ff80c939000"
+    },
+    {
+      "name": "MobileSystemServices",
+      "addr": "0x7ff91e12b000"
+    },
+    {
+      "name": "libxslt.1.dylib",
+      "addr": "0x7ff812ee3000"
+    },
+    {
+      "name": "BackgroundTaskManagement",
+      "addr": "0x7ff810913000"
+    },
+    {
+      "name": "libcurl.4.dylib",
+      "addr": "0x7ff81d718000"
+    },
+    {
+      "name": "libcrypto.46.dylib",
+      "addr": "0x7ffd0c7c9000"
+    },
+    {
+      "name": "libssl.48.dylib",
+      "addr": "0x7ffd0d300000"
+    },
+    {
+      "name": "LDAP",
+      "addr": "0x7ff81d3fe000"
+    },
+    {
+      "name": "TrustEvaluationAgent",
+      "addr": "0x7ff81d438000"
+    },
+    {
+      "name": "libsasl2.2.dylib",
+      "addr": "0x7ff8159cc000"
+    },
+    {
+      "name": "libswiftFoundation.dylib",
+      "addr": "0x7ff819f3e000"
+    }
+  ],
+  "branches": [
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol215",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x00000001085de000",
+          "rdx": "0x0000000000000005",
+          "rdi": "0x0000600003bb4000",
+          "rsi": "0x0000600003bb4000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x0000000000000006",
+          "r9": "0x000000008adfcffb",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000010",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x000000010000484d",
+          "rflags": "0x0000000000000202",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol193",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x00000001085de000",
+          "rdx": "0x0000000000000005",
+          "rdi": "0x0000600003bb4000",
+          "rsi": "0x0000600003bb4000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x0000000000000006",
+          "r9": "0x000000008adfcffb",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000010",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004270",
+          "rflags": "0x0000000000000202",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol215",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x000000008027f7fb",
+          "rdx": "0x00000000000000ff",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x000000008047fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000080400000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004854",
+          "rflags": "0x0000000000000202",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol194",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x000000008027f7fb",
+          "rdx": "0x00000000000000ff",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x000000008047fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000080400000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004290",
+          "rflags": "0x0000000000000202",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol215",
+        "registers": {
+          "rax": "0x0000000100007648",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x000000008267d003",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000600003bb4050",
+          "rsi": "0x0000000000000040",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x000000008287d802",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082800000",
+          "r11": "0x0000000000000003",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4050",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x000000010000484d",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol206",
+        "registers": {
+          "rax": "0x0000000100007648",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x000000008267d003",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000600003bb4050",
+          "rsi": "0x0000000000000040",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x000000008287d802",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082800000",
+          "r11": "0x0000000000000003",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4050",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004570",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol215",
+        "registers": {
+          "rax": "0x0000000100007648",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x000000008147cffb",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000140",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x000000008167d006",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081600000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4050",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004854",
+          "rflags": "0x0000000000000202",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol208",
+        "registers": {
+          "rax": "0x0000000100007648",
+          "rbx": "0x0000600003bb4000",
+          "rcx": "0x000000008147cffb",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000140",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x000000008167d006",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081600000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb4050",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004620",
+          "rflags": "0x0000000000000202",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol214",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600002cb0000",
+          "rcx": "0x0000000000000000",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000600003bb0000",
+          "rsi": "0x0000600003bbecec",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e60",
+          "r8": "0x0000600003bb0000",
+          "r9": "0x0000000000000010",
+          "r10": "0x0000000000000000",
+          "r11": "0x00000000001ff800",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb0000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004783",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol193",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600002cb0000",
+          "rcx": "0x0000000000000000",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000600003bb0000",
+          "rsi": "0x0000600003bbecec",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e58",
+          "r8": "0x0000600003bb0000",
+          "r9": "0x0000000000000010",
+          "r10": "0x0000000000000000",
+          "r11": "0x00000000001ff800",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb0000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004270",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol214",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600002cb0000",
+          "rcx": "0x000000008187cffb",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000140",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e60",
+          "r8": "0x0000000081a7d006",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081a00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb0000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x000000010000478a",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol194",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600002cb0000",
+          "rcx": "0x000000008187cffb",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000140",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e58",
+          "r8": "0x0000000081a7d006",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081a00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb0000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004290",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol214",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600002cb0000",
+          "rcx": "0x00000001085de600",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000003",
+          "rsi": "0x0000600002cb0000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e60",
+          "r8": "0x0000000000000009",
+          "r9": "0x000000008127f7fb",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000040",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb0000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x00000001000047de",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol195",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x0000600002cb0000",
+          "rcx": "0x00000001085de600",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000003",
+          "rsi": "0x0000600002cb0000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e58",
+          "r8": "0x0000000000000009",
+          "r9": "0x000000008127f7fb",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000040",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x0000600003bb0000",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004330",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol214",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x00000001085de200",
+          "rdx": "0x000000000000003a",
+          "rdi": "0x00006000039b8740",
+          "rsi": "0x00006000039b8000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e60",
+          "r8": "0x0000000000000007",
+          "r9": "0x00000000876e27fb",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000020",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x00006000039b8740",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004783",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol200",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x00000001085de200",
+          "rdx": "0x000000000000003a",
+          "rdi": "0x00006000039b8740",
+          "rsi": "0x00006000039b8000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e58",
+          "r8": "0x0000000000000007",
+          "r9": "0x00000000876e27fb",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000020",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x00006000039b8740",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x00000001000043b0",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol214",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x00000000846757fb",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000500",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e60",
+          "r8": "0x0000000084875815",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000084800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x00006000039b8740",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x000000010000478a",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol201",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x00000000846757fb",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000000000100",
+          "rsi": "0x0000000000000500",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e58",
+          "r8": "0x0000000084875815",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000084800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x00006000039b8740",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x0000000100004450",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol214",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000600002cb8140",
+          "rcx": "0x00000001085de600",
+          "rdx": "0x00000001085de000",
+          "rdi": "0x0000000000000003",
+          "rsi": "0x0000600002cb8000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e60",
+          "r8": "0x0000000000000007",
+          "r9": "0x000000000247c800",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000040",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x00006000039b8740",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x00000001000047de",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol202",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000600002cb8140",
+          "rcx": "0x00000001085de600",
+          "rdx": "0x00000001085de000",
+          "rdi": "0x0000000000000003",
+          "rsi": "0x0000600002cb8000",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e58",
+          "r8": "0x0000000000000007",
+          "r9": "0x000000000247c800",
+          "r10": "0x00000000001ff800",
+          "r11": "0x0000000000000040",
+          "r12": "0x00007ff844b9f288",
+          "r13": "0x00006000039b8740",
+          "r14": "0x0000600003bb4050",
+          "r15": "0x0000000100007648",
+          "rip": "0x00000001000044f0",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol217",
+        "registers": {
+          "rax": "0x00007ff842c23e20",
+          "rbx": "0x0000000304126f38",
+          "rcx": "0x000000008167f7fb",
+          "rdx": "0x00000001000074d0",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000304126ec0",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x000000008187fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000304126ec0",
+          "r13": "0x0000000100006068",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000048a3",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "libswiftCore.dylib",
+        "func": "swift::metadataimpl::BufferValueWitnesses<swift::metadataimpl::ValueWitnesses<swift::metadataimpl::SwiftRetainableBox>, true, 8ul, 8ul, (swift::metadataimpl::FixedPacking)1>::initializeBufferWithCopyOfBuffer(swift::TargetValueBuffer<swift::InProcess>*, swift::TargetValueBuffer<swift::InProcess>*, swift::TargetMetadata<swift::InProcess> const*)",
+        "registers": {
+          "rax": "0x00007ff842c23e20",
+          "rbx": "0x0000000304126f38",
+          "rcx": "0x000000008167f7fb",
+          "rdx": "0x00000001000074d0",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000304126ec0",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x000000008187fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000304126ec0",
+          "r13": "0x0000000100006068",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00007ff815450660",
+          "rflags": "0x0000000000000206",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol189",
+        "registers": {
+          "rax": "0x0000000304126f38",
+          "rbx": "0x00000001000074d0",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x00000001000074d0",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126ea0",
+          "r8": "0x000000008187fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x000000010000413a",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol222",
+        "registers": {
+          "rax": "0x0000000304126f38",
+          "rbx": "0x00000001000074d0",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x00000001000074d0",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x000000008187fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x0000000100004950",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol211",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x00000001000074d0",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x00000001000074d0",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x000000008187fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000600003bb0020",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x000000010000470f",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol193",
+        "registers": {
+          "rax": "0x00000001000074d0",
+          "rbx": "0x00000001000074d0",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x00000001000074d0",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x000000008187fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081800000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000600003bb0020",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x0000000100004270",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol219",
+        "registers": {
+          "rax": "0x00007ff815450680",
+          "rbx": "0x00000001000074d0",
+          "rcx": "0x0000000081a7f7fb",
+          "rdx": "0x00000000000000ff",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x00000001000074d0",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000048f7",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "libswiftCore.dylib",
+        "func": "swift::metadataimpl::ValueWitnesses<swift::metadataimpl::SwiftRetainableBox>::destroy(swift::OpaqueValue*, swift::TargetMetadata<swift::InProcess> const*)",
+        "registers": {
+          "rax": "0x00007ff815450680",
+          "rbx": "0x00000001000074d0",
+          "rcx": "0x0000000081a7f7fb",
+          "rdx": "0x00000000000000ff",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x00000001000074d0",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00007ff815450680",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol217",
+        "registers": {
+          "rax": "0x00007ff842c23e20",
+          "rbx": "0x0000000304126f38",
+          "rcx": "0xfffffffe00000000",
+          "rdx": "0x0000000100007648",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000304126ee8",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000048a3",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "libswiftCore.dylib",
+        "func": "swift::metadataimpl::BufferValueWitnesses<swift::metadataimpl::ValueWitnesses<swift::metadataimpl::SwiftRetainableBox>, true, 8ul, 8ul, (swift::metadataimpl::FixedPacking)1>::initializeBufferWithCopyOfBuffer(swift::TargetValueBuffer<swift::InProcess>*, swift::TargetValueBuffer<swift::InProcess>*, swift::TargetMetadata<swift::InProcess> const*)",
+        "registers": {
+          "rax": "0x00007ff842c23e20",
+          "rbx": "0x0000000304126f38",
+          "rcx": "0xfffffffe00000000",
+          "rdx": "0x0000000100007648",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000304126ee8",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00007ff815450660",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol189",
+        "registers": {
+          "rax": "0x0000000304126f38",
+          "rbx": "0x0000000100007648",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007648",
+          "rsi": "0x0000000100006080",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126ea0",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x000000010000416f",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol211",
+        "registers": {
+          "rax": "0x0000000304126f38",
+          "rbx": "0x0000000100007648",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007648",
+          "rsi": "0x0000000100006080",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x0000000100004700",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol211",
+        "registers": {
+          "rax": "0x0000000100007648",
+          "rbx": "0x0000000100007648",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007648",
+          "rsi": "0x0000000100006080",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000600003bb0030",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x000000010000470f",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol206",
+        "registers": {
+          "rax": "0x0000000100007648",
+          "rbx": "0x0000000100007648",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007648",
+          "rsi": "0x0000000100006080",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x0000000081c7fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000081c00000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000600003bb0030",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x0000000100004570",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol219",
+        "registers": {
+          "rax": "0x00007ff815450680",
+          "rbx": "0x0000000100007648",
+          "rcx": "0x0000000081e7f7fb",
+          "rdx": "0x00000000000000ff",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000100007648",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000048f7",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "libswiftCore.dylib",
+        "func": "swift::metadataimpl::ValueWitnesses<swift::metadataimpl::SwiftRetainableBox>::destroy(swift::OpaqueValue*, swift::TargetMetadata<swift::InProcess> const*)",
+        "registers": {
+          "rax": "0x00007ff815450680",
+          "rbx": "0x0000000100007648",
+          "rcx": "0x0000000081e7f7fb",
+          "rdx": "0x00000000000000ff",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000100007648",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00007ff815450680",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol217",
+        "registers": {
+          "rax": "0x00007ff842c23e20",
+          "rbx": "0x0000000304126f38",
+          "rcx": "0xfffffffe00000000",
+          "rdx": "0x0000000100007580",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000304126f10",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000048a3",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "libswiftCore.dylib",
+        "func": "swift::metadataimpl::BufferValueWitnesses<swift::metadataimpl::ValueWitnesses<swift::metadataimpl::SwiftRetainableBox>, true, 8ul, 8ul, (swift::metadataimpl::FixedPacking)1>::initializeBufferWithCopyOfBuffer(swift::TargetValueBuffer<swift::InProcess>*, swift::TargetValueBuffer<swift::InProcess>*, swift::TargetMetadata<swift::InProcess> const*)",
+        "registers": {
+          "rax": "0x00007ff842c23e20",
+          "rbx": "0x0000000304126f38",
+          "rcx": "0xfffffffe00000000",
+          "rdx": "0x0000000100007580",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000304126f10",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006080",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00007ff815450660",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol189",
+        "registers": {
+          "rax": "0x0000000304126f38",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007580",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126ea0",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000041a4",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol222",
+        "registers": {
+          "rax": "0x0000000304126f38",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007580",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x0000000100004950",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol211",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007580",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e80",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x00006000039b0000",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x000000010000470f",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol200",
+        "registers": {
+          "rax": "0x0000000100007580",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x0000000000010007",
+          "rdx": "0x0000000200000000",
+          "rdi": "0x0000000100007580",
+          "rsi": "0x0000000100006068",
+          "rbp": "0x0000000304126e90",
+          "rsp": "0x0000000304126e78",
+          "r8": "0x000000008207fffb",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082000000",
+          "r11": "0x00000000000007fb",
+          "r12": "0x0000000100006068",
+          "r13": "0x00006000039b0000",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000043b0",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    },
+    {
+      "before": {
+        "module": "TestProgramClass",
+        "func": "___lldb_unnamed_symbol219",
+        "registers": {
+          "rax": "0x00007ff815450680",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x0000000082a7d003",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000100007580",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x0000000082c7d802",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082c00000",
+          "r11": "0x0000000000000003",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00000001000048f7",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      },
+      "after": {
+        "module": "libswiftCore.dylib",
+        "func": "swift::metadataimpl::ValueWitnesses<swift::metadataimpl::SwiftRetainableBox>::destroy(swift::OpaqueValue*, swift::TargetMetadata<swift::InProcess> const*)",
+        "registers": {
+          "rax": "0x00007ff815450680",
+          "rbx": "0x0000000100007580",
+          "rcx": "0x0000000082a7d003",
+          "rdx": "0x0000000000000000",
+          "rdi": "0x0000000304126f38",
+          "rsi": "0x0000000100007580",
+          "rbp": "0x0000000304126fc0",
+          "rsp": "0x0000000304126e98",
+          "r8": "0x0000000082c7d802",
+          "r9": "0x00000000000000ff",
+          "r10": "0x0000000082c00000",
+          "r11": "0x0000000000000003",
+          "r12": "0x0000000100006068",
+          "r13": "0x0000000304126f38",
+          "r14": "0x0000000304126ea0",
+          "r15": "0x0000000304126f38",
+          "rip": "0x00007ff815450680",
+          "rflags": "0x0000000000000246",
+          "cs": "0x000000000000002b",
+          "fs": "0x0000000000000000",
+          "gs": "0x0000000000000000",
+          "ds": "0x0000000000000000",
+          "es": "0x0000000000000000",
+          "ss": "0x0000000000000000",
+          "gsbase": "0x0000000000000000"
+        }
+      }
+    }
+  ]
+}
